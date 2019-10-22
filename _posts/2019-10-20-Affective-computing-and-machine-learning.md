@@ -36,7 +36,7 @@ Introduction:
 
 This research proposes a method for training convolutional neural networks for human facial expression image classification. The trained networks may be used for human emotions analysis in many applications,such as ensuringsafe driving and human-computer interaction. Commonly, a neural network can be trained by using whole face images. However, face outline can influence emotion recognition. Since the face outline can influence the emotion feature extraction. As a solution to this problem, we proposed to traini a network on the key points of facial images. The average classification accuracy of the network is 33% (7 emotion classes), which shows it is a promising method.
 
-The reseaerch paper is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Human%20emotion%20recognition%20based%20on%20facial%20expression.pdf). The source code is available [here](https://github.com/wangzh3/facial-emotion-recognition.git)
+The reseaerch paper and the source code is available [here](https://github.com/wangzh3/facial-emotion-recognition/blob/master/Human%20emotion%20recognition%20based%20on%20facial%20expression.pdf).
 
 
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/facial%20emo.jpg?raw=true)
