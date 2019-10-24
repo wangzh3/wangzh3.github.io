@@ -15,6 +15,10 @@ tags:
 
 Introduction:
 
-Now the vast majority of web pages on the market when the importation of verification code for the image verification code, by entering the characters and figures on the picture to distinguish between people and machine behavior differences. But this type of character and digital verification code is not easy to identify, but easy to be identified by the machine. As the computer is not easy to capture the color characteristics, so the proposed color-based mouse-based visual verification code system to achieve the distinction between human and computer behavior. The system is based on VB language, the use of both shape and color recognition to determine. The graphic shape is inspired by the four colors in the poker, the red color of the same RGB value, but the black set a different brightness, allowing users to select from 9 pictures in line with the specified shape and color of the picture. Experiments show that the system can better distinguish between people and computer behavior, for the user's simplicity has also improved.
+The naive verification code of web pages was implemented by entering the characters and digits on the image to distinguish people and computer behavior. However, this type of verification code is hard to identify for human, but easy to be identified by the computer.
+
+Due to the computer is hard to capture the color characteristics, this research proposed the color-based mouse-based visual verification code system to distinguish human and computer login behavior by the recognition of the image object outline, RGB scale, and grayscale.  There are 4 different graphic images and 2 kinds of colors which are red and gray. In the pilot study, the red color of the graphics has the same RGB value, the gray color has different grayscale. Users must select all images that correspond to the specified shape and color of the picture from the 9 randomly generated images.
+
+The system is implemented by using the VB language. Experiments show that the system can better distinguish between people and computer behavior, for the user's simplicity has also improved.
 
 ![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/code.jpg)
