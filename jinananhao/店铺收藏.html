@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/ectouch2.css" rel="stylesheet" type="text/css" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet"   type="text/css"/>
+<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="js/TouchSlide.1.1.source.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/common_js.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
+<script src="layer/layer.js" type="text/javascript"></script>
+<title>店铺收藏</title>
+</head>
+
+<body>
+<div class="Layout_style">
+<!--顶部通用样式-->
+ <header id="header">
+  <div class="header_l header_return"><a href="javascript:;"onClick="javascript :history.back(-1);" class="return_cz"><i class="fa fa-angle-left icon_zjt"></i></a></div>
+  <h1> 用户收藏 </h1>
+  <div class="header_r"> <a class="iconfont icon-leijiyonghu" href="product_list.html"> </a> </div>
+</header>
+ <section class="wrap"> 
+ <div class="collect_Sort clearfix"><a href="user_Collect.html" >收藏的商品</a><a href="店铺收藏.html" class="hover">收藏的店铺</a></div>
+ <div class="collect_list">
+  <section class="collect">
+  <ul>
+  <li class="img_link"><a href="#"><img src="products/p_29.jpg"  width="80" height="80"/></a></li>
+  <li class="name">
+  <h3>三只松鼠旗舰店</h3>
+  <h5>三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店</h5>
+</li>
+  </ul> 
+  <div class="operating"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label><a href="#" class="iconfont icon-share"></a><a href="#" class="iconfont icon-delete"></a></div>
+  </section>
+   <section class="collect">
+  <ul>
+  <li class="img_link"><a href="#"><img src="products/p_29.jpg"  width="80" height="80"/></a></li>
+  <li class="name">
+  <h3>店铺名称店铺名称店铺名称店铺名称店铺名称</h3>
+    <h5>三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店</h5>
+</li>
+  </ul> 
+  <div class="operating"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label><a href="#" class="iconfont icon-share"></a><a href="#" class="iconfont icon-delete"></a></div>
+  </section>
+   <section class="collect">
+  <ul>
+  <li class="img_link"><a href="#"><img src="products/p_29.jpg"  width="80" height="80"/></a></li>
+  <li class="name">
+  <h3>店铺名称店铺名称店铺名称店铺名称</h3>
+    <h5>三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店</h5>
+</li>
+  </ul> 
+  <div class="operating"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label><a href="#" class="iconfont icon-share"></a><a href="#" class="iconfont icon-delete"></a></div>
+  </section>
+   <section class="collect">
+  <ul>
+  <li class="img_link"><a href="#"><img src="products/p_29.jpg"  width="80" height="80"/></a></li>
+  <li class="name">
+  <h3>店铺名称店铺名称店铺名称</h3>
+   <h5>三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店三只松鼠旗舰店</h5>
+ </li>
+  </ul> 
+  <div class="operating">
+  <label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label>
+  <a href="#" class="iconfont icon-share"></a><a href="#" class="iconfont icon-delete"></a></div>
+  </section>
+  </section>
+  </div>
+  <!--选择-->
+  <div class="Collect_buy">
+  <label><input name="form-field-checkbox" type="checkbox" class="ace" id="CheckedAll" ><span class="lbl">全选</span></label>
+  <div class="f_r"><button type="button" class="delete_btn" id="send">删除</button></div>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {
+   //全选
+   $("#CheckedAll").click(function () {
+	   if (this.checked) {                 //如果当前点击的多选框被选中
+		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", true);
+	   } else {
+		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", false);
+	   }
+   });
+   $('input[type=checkbox][name=form-field-checkbox]').click(function () {
+	   var flag = true;
+	   $('input[type=checkbox][name=form-field-checkbox]').each(function () {
+		   if (!this.checked) {
+			   flag = false;
+		   }
+	   });
+
+	   if (flag) {
+		   $('#CheckedAll').attr('checked', true);
+	   } else {
+		   $('#CheckedAll').attr('checked', false);
+	   }
+   });
+   //输出值
+   $("#send").click(function () {
+	      if($("input[type='checkbox'][name='form-field-checkbox']:checked").attr("checked")){
+	   var str = "你是否要删除选中的商品!\r\n";
+	   //$('input[type=checkbox][name=form-field-checkbox]:checked').each(function () {
+		//   str += $(this).val() + "\r\n";
+	  // })
+	   layer.open({
+       title: [
+        '提示框','background-color:#8DCE16; color:#fff;'],
+        content:(str),  
+		btn: ['确认', '取消'],
+		//shadeClose: false,
+        yes: function(){
+        layer.open({content: '删除成功', time: 1});
+    }
+      });
+		  }
+		  else{
+			  
+			  layer.open({
+         title: ['提示框','background-color:#8DCE16; color:#fff;'],
+         content:('你未选中任何商品，请选择后在操作'), 
+		 btn: ['确认'], 
+      });
+	 //  alert(str);
+       }	   	    
+   });
+})
+</script>
+</body>
+</html>

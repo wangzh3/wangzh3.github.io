@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Expires" CONTENT="-1">
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<link href="css/ectouch2.css" rel="stylesheet" type="text/css" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="js/TouchSlide.1.1.source.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/common_js.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
+<script src="layer/layer.js" type="text/javascript"></script>
+<title>订单详细</title>
+</head>
+
+<body>
+<div class="Layout_style">
+<!--顶部通用样式-->
+ <header id="header">
+  <div class="header_l header_return"><a href="#" class="iconfont icon-back"></a></div>
+  <h1> 订单详细 </h1>
+  <div class="header_r"> <a class="iconfont icon-leijiyonghu" href="user.html"> </a> </div>
+</header>
+<!--订单详细-->
+<div class="shop_cart">
+   <div class="schedule"><ul><li><em>1</em>查看购物车</li><li ><em>2</em>确认订单</li><li class="on"><em>3</em>成功提交订单</li></ul></div>
+</div>
+<div class="detailed_style clearfix">
+
+<div class="time">下单时间：2016-3-11 12:32:34</div>
+ <div class="Order_address_style clearfix">
+  <div><label class="label_name">收&nbsp;&nbsp;货&nbsp;人：</label><span class="address_xinxi">张小群 <span class="f_r">1897079655</span></span></div>
+  <div class=" clearfix"><label class="label_name">收货地址：</label><span class="address_xinxi">江苏省南京市雨花台软件大道2号希望大厦204室</span></div>
+</div>
+  <div class="Numbering">订单编号：2016031104504 <span class="f_r">状态：未完成 </span></div>
+  <ul class="list clearfix">
+   <li class="product_detailed">
+   <a href="#" class="product_img"><img src="products/p_14.jpg"  width="90" height="90"/></a>
+    <div class="product_content"><a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a><h3><span>品牌：御泥坊</span><span>数量：21片装</span></h3>
+     <h2>价格：￥<i>123x3</i></h2></div>
+   </li>
+    <li class="product_detailed">
+   <a href="#" class="product_img"><img src="products/p_16.jpg"  width="90" height="90"/></a>
+    <div class="product_content"><a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a><h3><span>品牌：御泥坊</span><span>数量：21片装</span></h3>
+     <h2>价格：￥<i>123x3</i></h2></div>
+   </li>
+    <li class="product_detailed">
+   <a href="#" class="product_img"><img src="products/p_15.jpg"  width="90" height="90"/></a>
+    <div class="product_content"><a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a><h3><span>品牌：御泥坊</span><span>数量：21片装</span></h3>
+     <h2>价格：￥<i>123x3</i></h2></div>
+   </li>
+  </ul>
+  <div class="numeral">
+  <span>数量：6件</span><span>总价：<i>234</i></span> 
+  <a href="#" class="btn buy_btn" id="Billing">结算</a>
+   <a href="#" class="btn buy_btn1">取消</a>
+   <!-- <a href="#" class="btn buy_btn2" id="">评论</a>-->
+   
+   </div>
+ <div class="Logistics_link"><a href="#">查看物流</a></div>
+</div>
+<!--地址-->
+
+</div>
+<script type="text/javascript">
+   $("#Billing").click(function () {
+	   layer.open({
+         title: ['支付方式','background-color:#8DCE16; color:#fff;'],
+         content:'<div class="Recharge_link"> <a href="#"><img src="images/zhifu1_07.png" /></a><a href="#"><img src="images/zhifu1_10.png" /></a><a href="#"><img src="images/zhifu1_12.png"/></a></div>', 
+		 btn: ['取消'], 
+      });
+	   
+	   
+	   })
+</script>
+</body>
+</html>

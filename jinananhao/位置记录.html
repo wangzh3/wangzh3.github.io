@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=get-target-densitydpi, width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/ectouch2.css" rel="stylesheet" type="text/css" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet"   type="text/css"/>
+<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="js/TouchSlide.1.1.source.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/common_js.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
+<script src="layer/layer.js" type="text/javascript"></script>
+<title>位置记录</title>
+</head>
+
+<body>
+<div class="Layout_style">
+ <header id="header">
+  <div class="header_l header_return"><a  href="javascript:;"onClick="javascript :history.back(-1);" class="iconfont icon-turn-left"></a></div>
+  <h1> 当前位置 </h1>
+  <div class="header_r">
+  <a class="iconfont icon-home" href="home.html">管理</a> </div> 
+ </header>
+ <!--内容样式-->
+ <section class="user_style">
+  <div class="user_bk">
+   <!--位置记录样式-->
+    <div class="Location_History">
+    <!--当前位置-->
+       <div class="current_location">
+         <em class="iconfont icon-map1"></em><span class="address_cont">江苏省南京市雨花台区软件大道3号希望国际大楼A做303室。</span>
+       </div>
+       <!--历史记录-->
+       <div class="history_record">
+         <div class="title_name"><i></i>位置记录</div>
+         <ul class="history_list">
+           <li>
+           <label><input name="form-field-checkbox" type="checkbox" class="ace"><span class="lbl"></span> </label> 
+             <span class="address_history">江苏省南京市雨花台区软件大道3号希望国际大楼A做303室。</span>         
+           </li>
+           <li>
+           <label><input name="form-field-checkbox" type="checkbox" class="ace"><span class="lbl"></span> </label> 
+             <span class="address_history">江苏省南京市雨花台区软件大道3号希望国际大楼A做303室。</span>         
+           </li>
+           <li class="hover">
+           <a href="#"><label><input name="form-field-checkbox" type="checkbox" class="ace"><span class="lbl"></span> </label> 
+             <span class="address_history">江苏省南京市雨花台区软件大道3号希望国际大楼A做303室。</span>     </a>    
+           </li>
+           <li>
+           <label><input name="form-field-checkbox" type="checkbox" class="ace"><span class="lbl"></span> </label> 
+             <span class="address_history">江苏省南京市雨花台区软件大道3号希望国际大楼A做303室。</span>         
+           </li>
+         </ul>
+         
+       </div>
+    </div>
+    
+  </div>
+   <div class="Collect_buy">
+  <label><input name="form-field-checkbox" type="checkbox" class="ace" id="CheckedAll" ><span class="lbl">全选</span></label>
+  <div class="f_r"><button type="button" class="delete_btn" id="send">删除</button></div>
+  </div>
+ </section>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {
+   //全选
+   $("#CheckedAll").click(function () {
+	   if (this.checked) {                 //如果当前点击的多选框被选中
+		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", true);
+	   } else {
+		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", false);
+	   }
+   });
+   $('input[type=checkbox][name=form-field-checkbox]').click(function () {
+	   var flag = true;
+	   $('input[type=checkbox][name=form-field-checkbox]').each(function () {
+		   if (!this.checked) {
+			   flag = false;
+		   }
+	   });
+
+	   if (flag) {
+		   $('#CheckedAll').attr('checked', true);
+	   } else {
+		   $('#CheckedAll').attr('checked', false);
+	   }
+   });
+   //输出值
+   $("#send").click(function () {
+	      if($("input[type='checkbox'][name='form-field-checkbox']:checked").attr("checked")){
+	   var str = "你是否要删除选中的商品!\r\n";
+	   //$('input[type=checkbox][name=form-field-checkbox]:checked').each(function () {
+		//   str += $(this).val() + "\r\n";
+	  // })
+	   layer.open({
+       title: [
+        '提示框','background-color:#8DCE16; color:#fff;'],
+        content:(str),  
+		btn: ['确认', '取消'],
+		//shadeClose: false,
+        yes: function(){
+        layer.open({content: '删除成功', time: 1});
+    }
+      });
+		  }
+		  else{
+			  
+			  layer.open({
+         title: ['提示框','background-color:#8DCE16; color:#fff;'],
+         content:('你未选中任何商品，请选择后在操作'), 
+		 btn: ['确认'], 
+      });
+	 //  alert(str);
+       }	   	    
+   });
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Expires" CONTENT="-1">
+<meta http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+<link href="css/ectouch2.css" rel="stylesheet" type="text/css" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="js/TouchSlide.1.1.source.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/common_js.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
+<title>团购界面</title>
+</head>
+
+<body>
+<div class="Layout_style">
+ <header id="header">
+  <div class="header_l header_return"><a href="#" class="iconfont icon-back"></a></div>
+  <h1> 品牌团购 </h1>
+  <div class="header_r"> <a class="iconfont icon-unie668" href="login.html"> </a> </div>
+</header>
+<!--团购产品-->
+ <div class="Layout_style clearfix main_visual">
+   <div class="group_style">
+    <div class="main_visual" id="swiper_wrapper">
+                <div class="flicking_con hd">               	
+                    <ul></ul>
+            </div>
+			<div class="main_image bd">
+				<ul >					
+					<li><a class="img_3"><img src="products/ad/ad_3.jpg" /></a></li>
+					<li><a class="img_4"><img src="products/ad/ad_4.jpg" /></a></li>
+					<li><a class="img_1"><img src="products/ad/ad_5.jpg" /></a></li>
+					<li><a class="img_2"><img src="products/ad/ad_6.jpg" /></a></li>
+					<li><a class="img_5"><img src="products/ad/ad_3.jpg" /></a></li>
+				</ul>
+				<a href="javascript:;" id="btn_prev" ></a>
+				<a href="javascript:;" id="btn_next" ></a>
+			</div>
+			</div>
+           <script type="text/javascript">
+    TouchSlide({ 
+	slideCell:"#swiper_wrapper",
+	titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+	mainCell:".bd ul", 
+	effect:"leftLoop", 
+	autoPlay:true,//自动播放
+    autoPage:true, //自动分页
+    switchLoad:"_src" //切换加载，真实图片路径为"_src"
+});
+</script>
+<!--商品列表-->
+  <div class="group_list" id="group_list"> 
+   <div class="group_product clearfix">
+   <div class="clearfix">
+    <div class="product_img"><a href="#"><img src="products/p_12.jpg"  width="100%"  height="180px"/></a></div>
+    <div class="product_contact">
+     <ul class="product_contact_margin">
+      <li class="name">天然有机极品香橙</li>
+      <li class="about">皮薄香甜多汁</li>
+      <li class="price"><i>¥</i>59.9</li>
+      <li>非团购价：76.00</li>
+      <li><a href="#" class="participate_btn">立即参团</a></li>
+     </ul>
+    </div>
+    </div>
+    <div class="group_time"><em class="iconfont icon-time"></em>团购结束还有2天14时25分</div>
+   </div>
+    <div class="group_product clearfix">
+   <div class="clearfix">
+    <div class="product_img"><a href="#"><img src="products/p_13.jpg"  width="100%"  height="180px"/></a></div>
+    <div class="product_contact">
+     <ul class="product_contact_margin">
+      <li class="name">天然有机极品香橙</li>
+      <li class="about">皮薄香甜多汁</li>
+      <li class="price"><i>¥</i>59.9</li>
+      <li>非团购价：76.00</li>
+      <li><a href="#" class="participate_btn">立即参团</a></li>
+     </ul>
+    </div>
+    </div>
+    <div class="group_time"><em class="iconfont icon-time"></em>团购结束还有2天14时25分</div>
+   </div>
+    <div class="group_product clearfix">
+   <div class="clearfix">
+    <div class="product_img"><a href="#"><img src="products/p_14.jpg"  width="100%"  height="180px"/></a></div>
+    <div class="product_contact">
+     <ul class="product_contact_margin">
+      <li class="name">天然有机极品香橙</li>
+      <li class="about">皮薄香甜多汁</li>
+      <li class="price"><i>¥</i>59.9</li>
+      <li>非团购价：76.00</li>
+      <li><a href="#" class="participate_btn">立即参团</a></li>
+     </ul>
+    </div>
+    </div>
+    <div class="group_time"><em class="iconfont icon-time"></em>团购结束还有2天14时25分</div>
+   </div>
+    <div class="group_product clearfix">
+   <div class="clearfix">
+    <div class="product_img"><a href="#"><img src="products/p_15.jpg"  width="100%"  height="180px"/></a></div>
+    <div class="product_contact">
+     <ul class="product_contact_margin">
+      <li class="name">天然有机极品香橙</li>
+      <li class="about">皮薄香甜多汁</li>
+      <li class="price"><i>¥</i>59.9</li>
+      <li>非团购价：76.00</li>
+      <li><a href="#" class="participate_btn">立即参团</a></li>
+     </ul>
+    </div>
+    </div>
+    <div class="group_time"><em class="iconfont icon-time"></em>团购结束还有2天14时25分</div>
+   </div>
+   <!---->
+  </div>
+  <div class="continue"><a href="#">点击继续加载</a></div>
+ </div>
+ </div>
+  <!--底部样式-->
+<div class="footer">
+  <div class="link_name"><a href="#">登录</a> | <a href="#">注册</a></div>
+  <div class="Copyright">
+    <a href="#" class="iconfont icon-home1"></a>
+   Copyright © 2015-2015  All Rights Reserved.
+成都军乐酒业有限公司版权所有
+<a  href="./" class="iconfont icon-top1"></a>
+  </div>
+</div>
+</div>
+ <!--固定栏目样式-->
+<div class="global-nav global-nav--current">
+    <div class="global-nav__nav-wrap">
+        <div class="global-nav__nav-item">
+            <a href="./" class="global-nav__nav-link">
+                <i class="iconfont icon-home1"></i>
+                <span class="global-nav__nav-tit">首页</span>
+            </a>
+        </div>
+        <div class="global-nav__nav-item">
+            <a href="cat_all.php" class="global-nav__nav-link">
+                <i class="iconfont icon-fenlei"></i>
+                <span class="global-nav__nav-tit">分类</span>
+            </a>
+        </div>
+         <div class="global-nav__nav-item">
+            <a href="user.php?act=order_list" class="global-nav__nav-link">
+                <i class="iconfont icon-shijian"></i>
+                <span class="global-nav__nav-tit">购物车</span>
+                <span class="global-nav__nav-shop-cart-num" id="carId">0</span>
+            </a>
+        </div>    
+        <div class="global-nav__nav-item">
+            <a href="user.php?act=order_list" class="global-nav__nav-link">
+                <i class="iconfont icon-leijiyonghu"  style="color: #F60"></i>
+                <span class="global-nav__nav-tit"  style="color: #F60">我的宏颜</span>
+            </a>
+        </div>
+    </div>   
+    <div class="global-nav__operate-wrap">
+        <span class="global-nav__yhd-logo"></span>
+        <span class="global-nav__operate-cart-num" id="globalId">0</span>
+    </div>
+   </div>
+   <script type="text/javascript">
+Zepto(function($){
+   var $nav = $('.global-nav'), $btnLogo = $('.global-nav__operate-wrap');
+   //点击箭头，显示隐藏导航
+   $btnLogo.on('click',function(){
+     if($btnLogo.parent().hasClass('global-nav--current')){
+       navHide();
+     }else{
+       navShow();
+     }
+   });
+   var navShow = function(){
+     $nav.addClass('global-nav--current');
+   }
+   var navHide = function(){
+     $nav.removeClass('global-nav--current');
+   }
+   
+})
+function get_search_box(){
+	try{
+		document.getElementById('get_search_box').click();
+	}catch(err){
+		document.getElementById('keywordfoot').focus();
+ 	}
+}
+</script>
+</div>
+</body>
+</html>

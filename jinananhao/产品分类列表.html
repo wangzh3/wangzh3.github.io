@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/ectouch2.css" rel="stylesheet" type="text/css" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet"   type="text/css"/>
+<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="js/TouchSlide.1.1.source.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/common_js.js" type="text/javascript"></script>
+<script src="js/jquery.reveal.js" type="text/javascript"></script>
+<script src="layer/layer.js" type="text/javascript"></script>
+<title>产品分类列表</title>
+</head>
+
+<body>
+<div class="Layout_style">
+  <div class="header_home_wrapper" id="index_search_main">
+ <div class="search-container on-blur" id="index_search_head">
+   <div class="search-box ">
+   <div class="search-tb">
+     <div class="header_logo flex">
+      <a href="javascript:;"onClick="javascript :history.back(-1);" class="return_cz"><i class="fa fa-angle-left icon_zjt"></i></a>
+     <span id="index_search_bar_cancel" class="search-icon-cancel"><i class="sprite-icon"></i></span>
+     </div>
+     <div class="flex">
+    <form action="/ware/search.action" id="index_searchForm" class="search-form">
+		<div class="search-form-box">
+		<em class="search-form-icon sprite-icon"></em>
+		   <div class="search-form-input">
+                    <input type="hidden" name="sid" value="">
+                    <input type="text" maxlength="20" autocomplete="off" id="index_newkeyword" name="keyword" value="" placeholder="请输入关键字" class="hilight1">
+					<input id="index_category" name="catelogyList" type="text" style="display:none;">
+	      </div>
+		  <a href="javascript:void(0);" class="search-icon-close sprite-icon" id="index_clear_keyword" style="display: none;"></a>
+          <a href="javascript:void(0)" id="index_search_submit" class="search-form-action"><span class="sprite-icon"></span></a>
+		</div>
+        </form>
+        </div>
+    <div class="search-login login-ing flex">
+      <a href="购物车.html" class="f_l cart_icon"><i class="icon_shopcart"></i><em>5</em></a>
+	  <a id="index_searchLogin" href="" class="p_user_name f_l" ><i class="iconfont icon-leijiyonghu"></i></a>
+     </div>
+    </div>
+   </div>
+    <div class="hot_ci">
+     热门搜索：<a href="#">面霜眼霜</a> <a href="#">面膜</a><a href="#">护肤套装</a> 
+    </div>
+ </div>
+ </div>
+ <!--分类样式-->
+ <div class="slideSort" id="slideSort">
+			<div class="hd">
+				<ul>
+				<li class="">蔬菜、根茎 </li>
+				<li class="">米面粮油</li>
+				<li class="">菇、菌</li>
+				<li class="">肉、蛋、禽</li>
+				<li class="">水产、冻品</li>
+				<li class="">调味、干货</li>
+				<li class="">鲜果、干果</li>
+				<li class="">日用百货</li>
+				<li class="">酒水饮料</li>
+				<li class="on">豆制品</li>
+				<li class=""><a href="#">宣传服务车</a></li>
+				
+				</ul>
+			</div>
+			<div class="bd">
+				<ul>
+                  <div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+				<ul >
+				  <div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+				<ul>
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+					
+				</ul>
+				<ul >
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+					<ul>
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+					<ul >
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+					<ul>
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+					<ul >
+						<div class="margin_left clearfix">
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+					<li>
+                    <p class="label_name"><a href="#" target="_blank">萝卜</a></p>
+                    <p><a href="#" target="_blank">白萝卜</a><a href="#" target="_blank">红萝卜</a><a href="#">青萝卜</a></p>
+                    </li>
+                    <li>
+                    <p class="label_name"><a href="#" target="_blank">白菜</a></p>
+                    <p><a href="#" target="_blank">大白菜</a><a href="#" target="_blank">小白菜</a><a href="#">圆白菜</a></p>
+                    </li>
+                  </div>
+				</ul>
+			</div>
+		</div>
+        <script type="text/javascript">TouchSlide({ slideCell:"#slideSort", trigger:"click"});</script>
+ </div>
+ <script type="text/javascript">		
+ jQuery(document).ready(function(){  
+ //初始化宽度、高度    
+    $(".hd ul").height($(window).height()-50);
+	$(".slideSort").height($(window).height()-50);
+    //当文档窗口发生改变时 触发  
+    $(window).resize(function(){
+	$(".hd ul").height($(window).height(-50));
+	$(".slideSort").height($(window).height()-50); 
+	});
+  })
+ </script>
+</body>
+</html>
