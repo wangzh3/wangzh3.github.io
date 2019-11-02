@@ -18,32 +18,32 @@
 <script src="js/common_js.js" type="text/javascript"></script>
 <script src="js/jquery.reveal.js" type="text/javascript"></script>
 <script src="layer/layer.js" type="text/javascript"></script>
-<title>购物车</title>
+<title>Shopping cart</title>
 </head>
 
 <body>
 <div class="Layout_style">
  <header id="header">
   <div class="header_l header_return"><a href="javascript:;" onclick="javascript :history.back(-1);" class="return_cz"><i class="fa fa-angle-left icon_zjt"></i></a></div>
-  <h1> 购物车 </h1>
+  <h1> Shopping </h1>
   <div class="header_r"> <a class="iconfont icon-icon4" href="user.html"> </a></div>
 </header>
 <!--购物车样式-->
  <div class="shop_cart">
-   <div class="schedule"><ul><li class="on"><em>1</em>查看购物车</li><li><em>2</em>确认订单</li><li><em>3</em>成功提交订单</li></ul></div>
+   <div class="schedule"><ul><li class="on"><em>1</em>check the shopping cart</li><li><em>2</em>Confirm order</li><li><em>3</em>Submitted order</li></ul></div>
    <div class="cart_list">
-     <div class="cart_filter clearfix"><a href="javascript:ovid(0)" class="hover">全部商品</a><a href="javascript:ovid(0)">预售商品</a></div>
+     <div class="cart_filter clearfix"><a href="javascript:ovid(0)" class="hover">All products</a><a href="javascript:ovid(0)">Presale</a></div>
      <ul>
       <li class="itemlist">
-       <div class="shop_Order">商家：自营
+       <div class="shop_Order">Merchant: Self-operated
         <div class="delete"><a href="javascript:ovid(0)"  class="fa fa-trash-o "></a><a href="javascript:ovid(0)"  class="fa fa-heart-o "></a></div>
        </div>
       <div class="s_c_content clearfix">
        <div class="checkbox"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label></div>
        <div class="img_link"><a href="#"><img src="products/p_9.jpg"  width="100%"/></a></div>
        <div class="cart_info">
-        <a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a>
-        <div class="Standard"><span>规格：21片/盒</span></div>
+        <a href="#">Product name</a>
+        <div class="Standard"><span>Size：21</span></div>
         <div class="price">￥87.00</div>        
        </div>       
        </div>
@@ -56,15 +56,15 @@
        </div>
       </li>
       <li class="itemlist">
-       <div class="shop_Order">商家：自营 
+       <div class="shop_Order">Merchant: Self-operated
         <div class="delete"><a href="javascript:ovid(0)"  class="fa fa-trash-o "></a><a href="javascript:ovid(0)"  class="fa fa-heart-o "></a></div>
        </div>
       <div class="s_c_content clearfix">
        <div class="checkbox"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label></div>
        <div class="img_link"><a href="#"><img src="products/p_9.jpg"  width="100%"/></a></div>
        <div class="cart_info">
-        <a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a>
-        <div class="Standard"><span>规格：21片/盒</span></div>
+        <a href="#">Product name</a>
+        <div class="Standard"><span>Size：21</span></div>
         <div class="price">￥87.00</div>        
        </div>       
        </div>
@@ -77,20 +77,19 @@
        </div>
       </li>
       <li class="itemlist">
-       <div class="shop_Order">商家：自营  <em class="Sale_style">预售产品</em> 
-       <div class="delete"><a href="javascript:ovid(0)"  class="fa fa-trash-o "></a><a href="javascript:ovid(0)"  class="fa fa-heart-o "></a></div>
+       <div class="shop_Order">Merchant: Self-operated
+        <div class="delete"><a href="javascript:ovid(0)"  class="fa fa-trash-o "></a><a href="javascript:ovid(0)"  class="fa fa-heart-o "></a></div>
        </div>
       <div class="s_c_content clearfix">
        <div class="checkbox"><label><input name="form-field-checkbox" type="checkbox" class="ace" ><span class="lbl"></span></label></div>
        <div class="img_link"><a href="#"><img src="products/p_9.jpg"  width="100%"/></a></div>
        <div class="cart_info">
-        <a href="#">御泥坊 红酒透亮矿物蚕丝面膜贴 21片装</a>
-        <div class="Standard"><span>规格：21片/盒</span></div>
+        <a href="#">Product name</a>
+        <div class="Standard"><span>Size：21</span></div>
         <div class="price">￥87.00</div>        
        </div>       
        </div>
-       <div class="Quantity_s">  
-        <span class="Sale_P_time">发售日期：2016-4-28</span>     
+       <div class="Quantity_s">       
         <span class="txt"> 
 		  <button type="button" class="decrease" onclick="changenum(1789,-1)">-</button>
           <input class="num" type="text" min="1" max="1000" name="goods_number[1789]" id="goods_number_1789" value="1" size="4" onkeyup="changenum(1789,0)">
@@ -102,63 +101,9 @@
    </div>
  </div>
  <footer class="toolbar">
-  <p><label><input name="form-field-checkbox"  id="CheckedAll" type="checkbox" class="ace" ><span class="lbl"></span></label>合计: <em class="price" id="goods_subtotal">￥<span>59.00</span></em></p>
-  <a href="#" class="carry_btn">继续购物</a>
-  <a href="javascript:" class="Billing" id="send">结算</a> </footer>
+  <p><label><input name="form-field-checkbox"  id="CheckedAll" type="checkbox" class="ace" ><span class="lbl"></span></label>Total price: <em class="price" id="goods_subtotal">￥<span>59.00</span></em></p>
+  <a href="#" class="carry_btn">Continue shopping</a>
 </div>
 </body>
 </html>
-	<script type="text/javascript">
-  //全选
-   $("#CheckedAll").click(function () {
-	   if (this.checked) {                 //如果当前点击的多选框被选中
-		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", true);
-	   } else {
-		   $('input[type=checkbox][name=form-field-checkbox]').attr("checked", false);
-	   }
-   });
-   $('input[type=checkbox][name=form-field-checkbox]').click(function () {
-	   var flag = true;
-	   $('input[type=checkbox][name=form-field-checkbox]').each(function () {
-		   if (!this.checked) {
-			   flag = false;
-		   }
-	   });
-
-	   if (flag) {
-		   $('#CheckedAll').attr('checked', true);
-	   } else {
-		   $('#CheckedAll').attr('checked', false);
-	   }
-   });
-   //输出值
-   $("#send").click(function () {
-	      if($("input[type='checkbox'][name='form-field-checkbox']:checked").attr("checked")){
-	   var str = "你是否要选中的商品!\r\n";
-	   //$('input[type=checkbox][name=form-field-checkbox]:checked').each(function () {
-		//   str += $(this).val() + "\r\n";
-	  // })
-	   layer.open({
-       title: [
-        '提示框','background-color:#8DCE16; color:#fff;'],
-        content:(str),  
-		btn: ['确认', '取消'],
-		//shadeClose: false,
-        yes: function(){
-        layer.open({content: '提交成功', time: 1});
-		location.href="提交订单.html";
-    }
-      });
-		  }
-		  else{
-			  
-			  layer.open({
-         title: ['提示框','background-color:#8DCE16; color:#fff;'],
-         content:('你未选中任何商品，请选择后在操作'), 
-		 btn: ['确认'], 
-      });
-	 //  alert(str);
-       }	   	    
-   });	
-		
-    </script>
+	
