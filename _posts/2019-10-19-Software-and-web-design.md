@@ -9,17 +9,17 @@ catalog: true
 tags:
     - 
 ---
-## electronic commence website
+## Electronic commence website
 
 >Master's internship, was finished at the Aispring (Beijing) Biotechnology Co., Ltd.
 
-Designed the front end pages for users by using Html<br>
-Designed the back end interfaces for administrator by using Html, JavaScript and JSP<br>
-Implemented the database of the server by using Mysql
+1. Designed the front end pages for users by using Html<br>
+2. Designed the back end interfaces for administrator by using Html, JavaScript and JSP<br>
+3. Implemented the database of the server by using Mysql
 
 The demo version of the website is available [here](https://wangzh3.github.io/jinananhao/home.html).
 
-The interface of the system is showed below.
+The interface of the website is showed below.
 
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/jnah.png?raw=true)
 
