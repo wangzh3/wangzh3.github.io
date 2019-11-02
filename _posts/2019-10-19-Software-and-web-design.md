@@ -11,7 +11,7 @@ tags:
 ---
 ## Electronic commence website
 
->Master's internship, was finished at the Aispring (Beijing) Biotechnology Co., Ltd.
+>Master's internship, was completed at the Aispring (Beijing) Biotechnology Co., Ltd.
 
 1. Designed the front end pages for users by using Html<br>
 2. Designed the back end interfaces for administrator by using Html, JavaScript and JSP<br>
@@ -24,6 +24,8 @@ The interface of the website is showed below.
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/jnah.png?raw=true)
 
 ## Color-based visualized mouse verification code system
+
+>The research was directed by Professor Dr. Gang Zhao at the Beijing Information Science and Technology University.
 
 The traditional verification code systems of web pages was implemented by entering the characters and digits on the image to distinguish people and computer behavior. However, this type of verification code is hard to identify for human, but easy to be identified by the computer.
 
