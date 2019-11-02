@@ -3,10 +3,10 @@ layout: page
 description: "University of Miami, Master of Science in Computer Science"
 ---
 <h3><strong>Short bio</strong></h3>
-    <p> I am a master student majored in Computer Science at the University of Miami, USA. 
-    I will graduate in May 2020. I got my Bachelor degree from the Beijing Information Science and Technology University, 
-    China. When I was a senior of my undergraduate, I was an exchange student majored in Computer Science at the 
-    St. Thomas University, USA.</p>  
+    <p>I am a master student majored in Computer Science at the University of Miami, USA, will graduate in May 2020. 
+    Previously, I got Bachelor degree from the Beijing Information Science and Technology University (BISTU), China. 
+    As a senior exchange student, I majored Computer Science at the St. Thomas University, USA in the Bachelor Programs “3+1” Programs with partner universities, 
+    and took CL Global Cambridge Summer Programme at the Cambridge University, UK in 2016.</p>  
     <p></p>  
 <h3><strong>Research projects</strong></h3>
 {% for post in paginator.posts %}
@@ -20,13 +20,7 @@ description: "University of Miami, Master of Science in Computer Science"
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <!--  <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>-->
     </a>
-    <!--<p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>-->
 </div>
 <hr>
 {% endfor %}
