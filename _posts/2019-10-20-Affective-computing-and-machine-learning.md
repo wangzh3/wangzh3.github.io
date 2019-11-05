@@ -25,7 +25,7 @@ Patents:<br>
 
 The research paper is available [here](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=ZZDZ201903008&v=MDAwNDFyQ1VSTE9mYnVSbUZpamdWcjdQUHpmUGRMRzRIOWpNckk5RmJJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUY=)
 
-The interface of the sysyem is showed below.
+The interface of the system is showed below.
 
 ![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/log.jpg)
 
