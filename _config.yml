@@ -59,9 +59,18 @@ friends: [
     {
         title: "Beijing Information Science and Technology University",
         href: "https://www.bistu.edu.cn"
+    },
+    {
+        title: "=====================",
+        href: ""
     },  
     {
         title: "My youtube channel",
         href: "https://www.youtube.com/channel/UCaiekugwlfWV-zFIOCMHi1A?view_as=subscriber"
+    },
+    {
+        title: "My linkedin profile",
+        href: "https://www.linkedin.com/in/zihao-wang-69135917b/"
     }
+    
 ]
