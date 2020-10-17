@@ -2,7 +2,7 @@
 title: Zihao Wang
 SEOTitle: Zihao Wang's website
 header-img: img/post-bg-desk.jpg
-email: zxw526@miami.edu wangzh3@foxmail.com
+email: zihao.wang3@my.liu.edu wangzh3@foxmail.com
 description: " "
 keyword: " "
 url: "http://wangzh3.github.io"          # your host, for absolute URL
@@ -49,12 +49,14 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Youtube channel",
-        href: "https://www.youtube.com/channel/UCaiekugwlfWV-zFIOCMHi1A?view_as=subscriber"
-    },
-    {
         title: "Linkedin profile",
         href: "https://www.linkedin.com/in/zihao-wang-69135917b/"
+    },
+    
+    {
+        title: "Youtube channel",
+        href: "https://www.youtube.com/channel/UCaiekugwlfWV-zFIOCMHi1A?view_as=subscriber"
     }
+    
     
 ]
