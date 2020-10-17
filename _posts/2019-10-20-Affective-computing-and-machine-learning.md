@@ -50,4 +50,4 @@ This research includes three contents. The first one is detecting the position o
 
 The process of this research is illustrated in the blueprint below.
 
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/master.jpg?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/master.png)
