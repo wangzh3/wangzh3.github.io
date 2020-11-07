@@ -2,8 +2,8 @@
 layout:     post
 title:      Automated reasoning
 subtitle:   
-date:       
-author:     
+date:       2019-10-17
+author:     Zihao Wang
 header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
