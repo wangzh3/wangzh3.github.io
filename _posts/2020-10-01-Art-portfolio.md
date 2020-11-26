@@ -9,7 +9,7 @@ catalog: true
 tags:
     - 
 ---
-Here is my art portfolio, including fine arts(experimental arts, chinese painting, sketch and gouache). At the bottom, there is a link of my magic performances.
+Here is my art portfolio, including fine arts (experimental arts, chinese painting, sketch and gouache) and my magic performances.
 
 The pdf version of high resolution portfolio is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/Portfolio.pdf).
 
