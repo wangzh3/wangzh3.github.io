@@ -20,7 +20,7 @@ The pdf version of high resolution portfolio is available [here](https://github.
 
 ## Chinese painting
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_07.jpg?raw=true).
-![](hhttps://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_08.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_08.jpg?raw=true).
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_09.jpg?raw=true).
 
 ## Sketch
