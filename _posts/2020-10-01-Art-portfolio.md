@@ -11,7 +11,7 @@ tags:
 ---
 Here is my art portfolio, including fine arts(experimental arts, chinese painting, sketch and gouache). At the bottom, there is a link of my magic performances.
 
-The high resolution pdf portfolio is available [here](https://www.youtube.com/playlist?list=PLExns4rbxy_Oai6NWz3Om_Ftjt8pZU_jF).
+The pdf version of high resolution portfolio is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/Portfolio.pdf).
 
 ## Experimental arts
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio.003.jpeg?raw=true).
@@ -37,4 +37,4 @@ The high resolution pdf portfolio is available [here](https://www.youtube.com/pl
 
 ## Magic performance
 
-My magic performace video link is [here](https://www.youtube.com/playlist?list=PLExns4rbxy_Oai6NWz3Om_Ftjt8pZU_jF).
+My magic performaces video link is [here](https://www.youtube.com/playlist?list=PLExns4rbxy_Oai6NWz3Om_Ftjt8pZU_jF).
