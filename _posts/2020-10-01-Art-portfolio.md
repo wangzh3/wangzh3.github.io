@@ -14,26 +14,26 @@ Here is my art portfolio, including fine arts (experimental arts, chinese painti
 The pdf version of high resolution portfolio is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/Portfolio.pdf).
 
 ## Experimental arts
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio.003.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio.004.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio.005.jpeg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio_Page_03.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio_Page_04.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/experimental%20art/Portfolio_Page_05.jpg?raw=true).
 
 ## Chinese painting
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio.007.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio.008.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio.009.jpeg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_07.jpg?raw=true).
+![](hhttps://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_08.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/chinese%20paint/Portfolio_Page_09.jpg?raw=true).
 
 ## Sketch
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.011.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.012.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.013.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.014.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.015.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio.016.jpeg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_11.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_12.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_13.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_14.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_15.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/sketch/Portfolio_Page_16.jpg?raw=true).
 
 ## Gouache
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/gouache/Portfolio.018.jpeg?raw=true).
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/gouache/Portfolio.019.jpeg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/gouache/Portfolio_Page_18.jpg?raw=true).
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Portfolio/gouache/Portfolio_Page_19.jpg?raw=true).
 
 ## Magic performance
 
