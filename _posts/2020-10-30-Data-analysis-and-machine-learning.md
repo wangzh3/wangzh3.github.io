@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Affective computing and machine learning
+title:      Data analysis and machine learning
 subtitle:   
-date:       1000-01-30
+date:       2020-10-30
 author:     Zihao Wang
 header-img: img/post-bg-desk.jpg
 catalog: true

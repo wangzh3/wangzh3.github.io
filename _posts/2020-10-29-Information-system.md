@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Software and web design
+title:      Information system
 subtitle:   
-date:       2019-10-19
+date:       2020-10-29
 author:     Zihao Wang
 header-img: img/post-bg-desk.jpg
 catalog: true
