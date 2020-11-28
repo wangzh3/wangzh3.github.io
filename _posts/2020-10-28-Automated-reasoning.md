@@ -2,7 +2,7 @@
 layout:     post
 title:      Automated reasoning
 subtitle:   
-date:       2020-10-27
+date:       2020-10-28
 author:     Zihao Wang
 header-img: img/post-bg-desk.jpg
 catalog: true
