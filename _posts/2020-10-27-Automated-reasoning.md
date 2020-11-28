@@ -16,4 +16,4 @@ Automated theorem proving (ATP) is concerned with the development and use of sys
 
 >The research paper is published on the 7th workshop on practical aspects of automated reasoning in 2020, directed by Professor Dr. Geoff Sutcliffe.
 
-The research paper is available [here](http://paar2020.gforge.inria.fr/papers/PAAR_2020_paper_6.pdf).
+The research paper is available [here](http://ceur-ws.org/Vol-2752/paper5.pdf).
