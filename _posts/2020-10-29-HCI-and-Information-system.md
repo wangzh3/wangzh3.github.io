@@ -9,6 +9,18 @@ catalog: true
 tags:
     - 
 ---
+## Smartphone Menu Design for Elders
+First, the evolution of the mobile phone interface and the evaluation of interfaces are reviewed. Second, the design guidelines and checklists for smartphone menu design will be viewed, especially for elders. Third, finding frameworks of menu layout for elders. Then, 2 kinds of prototypes of the layouts will be developed according to the layouts,  design guidelines, and checklists. Finally, the prototype will be given to 2 groups of participants separately and they will fill a questionnaire to evaluate the performance.
+
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20phone%20process.png?raw=true)
+
+The research proposal is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Zihao_805_proposal_v2.pdf).
+The semimar paper is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Wang%20Zihao%20801%20Seminar%20Paper.pdf).
+
+Some exists protptype are shown below.
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Blindsense.png?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/elder%20prototype1.png)
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20prototype2.png?raw=true)
 ## Electronic commence website
 
 >Master's internship, was completed at the Aispring (Beijing) Biotechnology Co., Ltd.
