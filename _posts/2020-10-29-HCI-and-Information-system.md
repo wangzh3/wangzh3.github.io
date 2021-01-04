@@ -11,6 +11,7 @@ tags:
 ---
 ## Smartphone Menu Design for Elders
 >PhD research project at the Long Island University, directed by Professor Dr. Qiping Zhang.
+
 First, the evolution of the mobile phone interfaces are reviewed. Second, the design guidelines and checklists for smartphone menu design are viewed, especially for elders. Third, frameworks of menu layout for elders are found. Then, 2 kinds of prototypes of the layouts will be developed according to the layouts, design guidelines, and checklists. Finally, the prototype will be given to 2 groups of participants separately and they will fill a questionnaire to evaluate the performance.
 
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20phone%20process.png?raw=true)
