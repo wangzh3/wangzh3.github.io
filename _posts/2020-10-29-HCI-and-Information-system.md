@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      HCI and Information system
+title:      HCI and information system
 subtitle:   
 date:       2020-10-29
 author:     Zihao Wang
