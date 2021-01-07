@@ -23,7 +23,7 @@ Papers:<br>
 Patents:<br>
 [1]	Kang. H, Wang. Z. Method and system of user behavior description and prediction based on web log. China, 201910089017 .1[P]. 2019-05-21.
 
-The research paper is available [here](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=ZZDZ201903008&v=MDAwNDFyQ1VSTE9mYnVSbUZpamdWcjdQUHpmUGRMRzRIOWpNckk5RmJJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUY=)
+The research paper is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Analysis%20and%20Prediction%20of%20User%20Behavior%20Based%20on%20Web%20Log.pdf). The English abstract is located in the bottom.
 
 The interface of the system is showed below.
 
