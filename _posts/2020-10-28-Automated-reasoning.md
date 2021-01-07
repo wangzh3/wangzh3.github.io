@@ -22,6 +22,6 @@ The published paper is [here](http://ceur-ws.org/Vol-2752/paper5.pdf). The detai
 
 The graph search python framework that is implemented by myself is [here](https://github.com/wangzh3/My-axiom-selection).
 
-Here is a sample of graph search:
+Here is an example of graph search:
 
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/axiom%20tree.png?raw=true)
