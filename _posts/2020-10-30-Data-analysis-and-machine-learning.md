@@ -39,7 +39,7 @@ To solve this challenge, in this research, we proposed some machine learning app
 
 All the proposed machine learning techniques are trained and evaluated based on the Audio-Visual Emotion recognition Challenge (AVEC) 2014 dataset. The experimental results show the most effective method is the K nearest neighbor (KNN) based on the discrete emotion feature. The accuracy reaches 70% and the recall for non-depression detection reaches 96.8% which is higher than the baseline 85.9%. The result illustrates it’s a promising performance and could be applied to real-world applications.
 
-Paper and the source code are available [here](https://github.com/wangzh3/USER-EMOTION-ANALYSIS-AND-DEPRESSION-RECOGNITION-SYSTEM-BASED-ON-HUMAN-COMPUTER-INTERACTION/blob/master/Zihao%20Wang%20csc794%20final%20report.pdf).
+The thesis and the source code are available [here](https://github.com/wangzh3/USER-EMOTION-ANALYSIS-AND-DEPRESSION-RECOGNITION-SYSTEM-BASED-ON-HUMAN-COMPUTER-INTERACTION/blob/master/Zihao%20Wang%20csc794%20final%20report.pdf).
 
 The process of this research is illustrated in the blueprint below.
 
