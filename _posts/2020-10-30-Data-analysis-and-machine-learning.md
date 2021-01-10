@@ -29,6 +29,23 @@ The interface of the system is showed below.
 
 ![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/log.jpg)
 
+## User emotion analysis and depression recognition system based on human-computer interaction
+
+>The research (Master’s thesis) was supervised by Professor Dr. Liang Liang at the University of Miami.
+
+The development of graphic human-computer interaction (HCI) agents has enabled an explosive need for user experiences satisfaction. In many HCI systems, The general architecture includes 2 parts. One was a real-time multimodal agent of human-computer interaction, which was used to enhance user experiences while interacting with the computer. Another was the voice feedback agent. Analysis of user experiences is an important research topic of HCI. users’ emotions and depression analysis is the most important and challenging problem in user experience analysis.
+
+To solve this challenge, in this research, we proposed some machine learning approaches to achieve promising performance in analyzing user depression based on the HCI videos. Specifically, we proposed 2 directions of depression analysis. The first one is using continuous 3-dimension emotion representation (arousal, dominance and valence) combining with the Long Short-term Memory neural network (LSTM). The second one is using discrete emotion features combining with the LSTM and k-nearest neighbor (KNN) classifier. The research includes 3 parts: first, implement a facial expression recognition system based on the VGG19 neural network to recognize facial emotion in each HCI video frame. Second, generating a length of 512 feature vector of each face in each frame by using the middle output layer of VGG19. Third, using machine learning methods to predict the depression level based on the 3-dimension emotion representation and discrete emotion features. 
+
+All the proposed machine learning techniques are trained and evaluated based on the Audio-Visual Emotion recognition Challenge (AVEC) 2014 dataset. The experimental results show the most effective method is the K nearest neighbor (KNN) based on the discrete emotion feature. The accuracy reaches 70% and the recall for non-depression detection reaches 96.8% which is higher than the baseline 85.9%. The result illustrates it’s a promising performance and could be applied to real-world applications.
+
+Paper and the source code are available [here](https://github.com/wangzh3/USER-EMOTION-ANALYSIS-AND-DEPRESSION-RECOGNITION-SYSTEM-BASED-ON-HUMAN-COMPUTER-INTERACTION/blob/master/Zihao%20Wang%20csc794%20final%20report.pdf).
+
+The process of this research is illustrated in the blueprint below.
+
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/master.png)
+
+
 ## Human emotion recognition based on facial expression
 
 >The research was supervised by Professor Dr. Liang Liang at the University of Miami.
@@ -41,15 +58,3 @@ The figures of key points of extraction facial images are showd below.
 
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/facial%20emo.jpg?raw=true)
 ![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/facial%20emotion.jpg?raw=true)
-
-## User emotion analysis and depression recognition system based on human-computer interaction
-
->The research (Master’s thesis) was supervised by Professor Dr. Liang Liang at the University of Miami.
-
-This research includes three contents. The first one is detecting the position of the human face in the video that records the facial motions in the human-computer interaction processes and recognizing facial expression by using the convolutional neural network. The second one is calculating continuous values of three affective dimensions related to the facial expression: Valence, Arousal, and Dominance. The 3 dimensions values will be calculated in each frame during human-computer interaction. And the third one, analysis of the degree of depression can be provided to the psychologist to regulate the user’s emotions.
-
-The process of this research is illustrated in the blueprint below.
-
-![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/master.png)
-
-Paper and the source code are available [here](https://github.com/wangzh3/USER-EMOTION-ANALYSIS-AND-DEPRESSION-RECOGNITION-SYSTEM-BASED-ON-HUMAN-COMPUTER-INTERACTION/blob/master/Zihao%20Wang%20csc794%20final%20report.pdf).
