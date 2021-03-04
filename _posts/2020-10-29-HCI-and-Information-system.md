@@ -31,7 +31,7 @@ The interface of the website is showed below.
 
 First, the evolution of the mobile phone interfaces and the design guidelines and checklists for smartphone menu design are reviewed. Next, 2 kinds of prototypes of the layouts are designed based on the bibliometric study. In the future study, the prototype will be developed and given to 2 groups of participants separately to evaluate the performance by using questionnaire.
 
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20phone%20process.png?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/elder%20phone%20process.png)
 
 The research proposal is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Zihao_805_proposal_v2.pdf).
 The semimar paper is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Wang%20Zihao%20801%20Seminar%20Paper.pdf).
