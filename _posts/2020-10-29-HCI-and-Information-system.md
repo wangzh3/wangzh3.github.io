@@ -9,34 +9,37 @@ catalog: true
 tags:
     - 
 ---
-## Smartphone Menu Design for Elders
->PhD research project at the Long Island University, directed by Professor Dr. Qiping Zhang.
-
-First, the evolution of the mobile phone interfaces and the design guidelines and checklists for smartphone menu design are reviewed. Next, frameworks of menu layout for elders are found. Then, 2 kinds of prototypes of the layouts will be developed according to the layouts, design guidelines, and checklists. Finally, the prototype will be given to 2 groups of participants separately and they will fill a questionnaire to evaluate the performance.
-
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20phone%20process.png?raw=true)
-
-The research proposal is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Zihao_805_proposal_v2.pdf).
-The semimar paper is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Wang%20Zihao%20801%20Seminar%20Paper.pdf).
-
-Some existed protptypes are shown below.
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Blindsense.png?raw=true)
-![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/elder%20prototype1.png)
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20prototype2.png?raw=true)
-
-## Electronic commence website
-
->Master's internship, was completed at the Aispring (Beijing) Biotechnology Co., Ltd.
+## Electronic commerce website
 
 1. Designed the front end pages for users by using Html<br>
 2. Designed the back end interfaces for administrator by using Html, JavaScript and JSP<br>
 3. Implemented the database of the server by using Mysql
 
-The demo version of the website is available [here](https://wangzh3.github.io/jinananhao/home.html).
+>Master's internship, was completed at the Aispring (Beijing) Biotechnology Co., Ltd. It achieved 1 invention patent.
+
+Patent:<br>
+[1] Xie. X, Wang. Z, Zhou. Y. A method for producing edible enzyme with plant Abelmoschus manihot (L .) Medicus[P]. China, CN109757715A. 2019-05-17.
+
+The invention patent is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Invention%20Title%20--%20Abelmoschus%20manihot%20biological%20enzyme%20and%20preparation%20method%20thereof.pdf). The demo version of the website is [here](https://wangzh3.github.io/jinananhao/home.html).
 
 The interface of the website is showed below.
 
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/jnah.png?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/jnah.png)
+
+## Smartphone Menu Design for Elders
+>PhD research project at the Long Island University, directed by Professor Dr. Qiping Zhang.
+
+First, the evolution of the mobile phone interfaces and the design guidelines and checklists for smartphone menu design are reviewed. Next, 2 kinds of prototypes of the layouts are designed based on the bibliometric study. In the future study, the prototype will be developed and given to 2 groups of participants separately to evaluate the performance by using questionnaire.
+
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/elder%20phone%20process.png?raw=true)
+
+The research proposal is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Zihao_805_proposal_v2.pdf).
+The semimar paper is [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Wang%20Zihao%20801%20Seminar%20Paper.pdf).
+
+Some existed protptypes are shown below.
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/Blindsense.png)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/elder%20prototype1.png)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/elder%20prototype2.png)
 
 ## Color-based visualized mouse verification code system
 
@@ -50,4 +53,4 @@ The system is implemented by using the VB language. Experiments show that the sy
 
 The interface of the system is showed below.
 
-![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/code.jpg)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/HCI/code.jpg)

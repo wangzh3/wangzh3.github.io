@@ -24,4 +24,4 @@ The graph search python framework that is implemented by myself is [here](https:
 
 Here is an example of graph search:
 
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/axiom%20tree.png?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/ATP/axiom%20tree.png)

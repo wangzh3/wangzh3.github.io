@@ -21,13 +21,13 @@ Papers:<br>
 [2]	Wang. Z. Analysis and Prediction of User Behavior Based on Web Log. Bachelor thesis directed by Professor Kang Haiyan (Kang H.), Beijing Information Science and  Technology University, 2018.
 
 Patents:<br>
-[1]	Kang. H, Wang. Z. Method and system of user behavior description and prediction based on web log. China, 201910089017 .1[P]. 2019-05-21.
+[1]	Kang. H, Wang. Z. Method and system of user behavior description and prediction based on web log[P]. China, CN109783460A. 2019-05-21.
 
-The research paper is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Analysis%20and%20Prediction%20of%20User%20Behavior%20Based%20on%20Web%20Log.pdf). The English abstract is located in the bottom.
+The research paper is available [here](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/Paper/Analysis%20and%20Prediction%20of%20User%20Behavior%20Based%20on%20Web%20Log.pdf). The English abstract is located in the bottom.
 
 The interface of the system is showed below.
 
-![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/log.jpg)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/log.jpg)
 
 ## User emotion analysis and depression recognition system based on human-computer interaction
 
@@ -43,7 +43,7 @@ The thesis and the source code are available [here](https://github.com/wangzh3/U
 
 The process of this research is illustrated in the blueprint below.
 
-![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/master.png)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/master.png)
 
 
 ## Human emotion recognition based on facial expression
@@ -56,5 +56,5 @@ Paper and the source code are available [here](https://github.com/wangzh3/facial
 
 The figures of key points of extraction facial images are showd below.
 
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/facial%20emo.jpg?raw=true)
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/facial%20emotion.jpg?raw=true)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/facial%20emo.jpg)
+![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/facial%20emotion.jpg)
