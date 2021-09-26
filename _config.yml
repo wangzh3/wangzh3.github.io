@@ -2,7 +2,7 @@
 title: Zihao Wang
 SEOTitle: Zihao Wang's website
 header-img: img/post-bg-desk.jpg
-email: zihao.wang3@my.liu.edu wangzh3@foxmail.com
+email: jfv472@mail.usask.ca wangzh3@foxmail.com
 description: " "
 keyword: " "
 url: "http://wangzh3.github.io"          # your host, for absolute URL
@@ -56,7 +56,10 @@ friends: [
     {
         title: "Youtube channel",
         href: "https://www.youtube.com/channel/UCaiekugwlfWV-zFIOCMHi1A?view_as=subscriber"
-    }
-    
+    },
+    {
+        title: "My magic website",
+        href: "https://wangzh3.wixsite.com/magic"
+    }  
     
 ]
