@@ -31,6 +31,13 @@ The interface of the system is showed below.
 
 ![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/log.jpg)
 
+## Using Machine Learning Techniques to Predict Potential Customers and Their Purchasing Items
+> The research was supervised by Professor Dr. Sevim Oztimurlenk and Ling Zhu at the Long Island University.
+
+The need has increased in B2C e-commerce for a more accurate recommendation system that targets customers. The system should be able to provide customers targeted purchase information based on their online behavior. A powerful and meaningful recommendation system can offer enormous value to customers and e-commerce providers. Customers can locate an item of their interest more easily and quickly. On the other hand, an e-commerce provider can achieve a higher customer conversion rate and thus increase sales. To this end this research developed a two-step machine-learning-based recommendation prototype with two data mining goals: to identify potential customers with purchase intention and to predict the products they may purchase based on an e-commerce log (i.e., a sequential record of products click-through events). In the first module, we used both the K-nearest neighbor (KNN) model and the multi-layer perceptron (MLP) neural network to classify customers with and without purchase intention. In the second module, we developed a first-order Markov chain model to predict products that those potential customers will purchase. We then tested the prototype with the dataset provided in the RecSys 2015 challenge. The results show that in the first module both the KNN and the MLP neural network have their own advantages and disadvantages in identifying those potential customers. In the second module the Markov model also performs well to predict the products purchased by a customer. The findings show that the prototype has a great potential to be developed into a machine-learning-based recommendation system for e-commerce usage. To our knowledge, this prototype is the first of its kind to combine a classification model with time series analysis.
+
+The source code is [here](https://github.com/wangzh3/Using-Machine-Learning-Techniques-to-Predict-Potential-Customers-and-Their-Purchasing-Items).
+
 ## User emotion analysis and depression recognition system based on human-computer interaction
 
 >The research (Master’s thesis) was supervised by Professor Dr. Liang Liang at the University of Miami.
