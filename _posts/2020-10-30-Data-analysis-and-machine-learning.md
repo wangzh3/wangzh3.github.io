@@ -10,18 +10,6 @@ tags:
     - 
 ---
 
-## Detecting patients with breast tumors based on circular RNAs
-
->University of Saskatchewan, Fall 2021
-
-Precise detection of the amount of breast tumor-related circular RNAs (circRNAs) is vital for breast tumor diagnosis and therapy However, there is little knowledge about circRNA biomarkers related to breast tumors. In this paper, we introduced a method to
-select 6480 circRNAs that relates to breast tumor among 24,409 circRNAs. To verify the diagnosis performance of selected circRNAs, a 1D convolutional neural network (1D-CNN) model is implemented and input expression data of selected circRNAs to classify people with non-tumor and tumor. The model was trained and tested based on 114 people without tumors and 1135 people with tumors. It achieved an excellent classification accuracy of 93%. This result
-demonstrates selected circRNAs can be used to diagnose breast tumors.
-
-![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/data%20analysis/cRNA.png?raw=true)
-
-The soruce code is [here](https://github.com/wangzh3/Detecting-patients-with-breast-tumors-based-on-circular-RNAs/tree/main/code) and the paper is [here](https://github.com/wangzh3/Detecting-patients-with-breast-tumors-based-on-circular-RNAs/blob/main/Detecting%20patients%20with%20breast%20tumors%20based%20on%20circular%20RNAs.pdf).
-
 ## Analysis and prediction of user behavior based on web log
 
 The feature clustering algorithm based on similarity and the fuzzy analysis method based on rough set were used. A method of analysis and prediction of user behavior based on web log was proposed. Firstly, a standard character eigenvector library was constructed．Then，a character clustering algorithm based on cosine similarity was used for character analysis. Finally, a fuzzy analysis algorithm based on rough set theory was used to perform behavior prediction. Results showed that the method accurately analyze the personality characteristics of users and predict their future behaviors, and identify the groups that might pose a threat to the security field.
@@ -42,6 +30,18 @@ The invention patent is [here](https://github.com/wangzh3/wangzh3.github.io/blob
 The interface of the system is showed below.
 
 ![](https://raw.githubusercontent.com/wangzh3/wangzh3.github.io/master/upload/data%20analysis/log.jpg)
+
+## Detecting patients with breast tumors based on circular RNAs
+
+>University of Saskatchewan, Fall 2021
+
+Precise detection of the amount of breast tumor-related circular RNAs (circRNAs) is vital for breast tumor diagnosis and therapy However, there is little knowledge about circRNA biomarkers related to breast tumors. In this paper, we introduced a method to
+select 6480 circRNAs that relates to breast tumor among 24,409 circRNAs. To verify the diagnosis performance of selected circRNAs, a 1D convolutional neural network (1D-CNN) model is implemented and input expression data of selected circRNAs to classify people with non-tumor and tumor. The model was trained and tested based on 114 people without tumors and 1135 people with tumors. It achieved an excellent classification accuracy of 93%. This result
+demonstrates selected circRNAs can be used to diagnose breast tumors.
+
+![](https://github.com/wangzh3/wangzh3.github.io/blob/master/upload/data%20analysis/cRNA.png?raw=true)
+
+The soruce code is [here](https://github.com/wangzh3/Detecting-patients-with-breast-tumors-based-on-circular-RNAs/tree/main/code) and the paper is [here](https://github.com/wangzh3/Detecting-patients-with-breast-tumors-based-on-circular-RNAs/blob/main/Detecting%20patients%20with%20breast%20tumors%20based%20on%20circular%20RNAs.pdf).
 
 ## Using Machine Learning Techniques to Predict Potential Customers and Their Purchasing Items
 > The research was supervised by Professor Dr. Sevim Oztimurlenk and Ling Zhu at the Long Island University.
